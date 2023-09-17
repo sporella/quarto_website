@@ -7,6 +7,7 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
+library(rsconnect)
 library(ggplot2)
 
 ggplot(iris, aes(x= Sepal.Length, y = Petal.Length, color = Species))+
