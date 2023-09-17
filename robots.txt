@@ -1,1 +1,1 @@
-Sitemap: https://sporella.github.io/quarto_website/sitemap.xml
+Sitemap: https://github.com/sporella/quarto_website/sitemap.xml
