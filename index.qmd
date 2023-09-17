@@ -7,6 +7,7 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
+install.packages("rsconnect")
 library(rsconnect)
 library(ggplot2)
 
