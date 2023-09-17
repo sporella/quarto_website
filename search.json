@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "lab11",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nlibrary(rsconnect)\nlibrary(ggplot2)\n\nggplot(iris, aes(x= Sepal.Length, y = Petal.Length, color = Species))+\n  geom_point()"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\ninstall.packages(\"rsconnect\")\n\nThe following package(s) will be installed:\n- rsconnect [1.1.0]\nThese packages will be installed into \"~/work/quarto_website/quarto_website/renv/library/R-4.2/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing rsconnect ...                      OK [linked from cache]\nSuccessfully installed 1 package in 8.9 milliseconds.\n\nlibrary(rsconnect)\nlibrary(ggplot2)\n\nggplot(iris, aes(x= Sepal.Length, y = Petal.Length, color = Species))+\n  geom_point()"
   }
 ]
